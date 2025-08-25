@@ -9,7 +9,7 @@ To run this project locally:
 1. Clone the repository:
 
 git clone https://github.com/sunildasari12/week7-day3.git
-cd State_Managament_Redux
+cd week7-day3
 
 
 2. Install dependencies:
