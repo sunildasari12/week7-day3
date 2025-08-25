@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# State Management with Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project demonstrates the implementation of state management in a React application using Redux. It showcases how to manage global state efficiently, enabling predictable state transitions and easy debugging.
 
-## Available Scripts
+# Getting Started
 
-In the project directory, you can run:
+To run this project locally:
 
-### `npm start`
+1. Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone https://github.com/sunildasari12/week7-day3.git
+cd State_Managament_Redux
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+2. Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Open your browser and navigate to http://localhost:3000 to view the application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Running Tests
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the test cases using Jest and React Testing Library:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm test
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Building for Production
 
-## Learn More
+To create a production-ready build:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm run build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+The optimized build will be available in the build/ directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Technologies Used
 
-### Analyzing the Bundle Size
+React: A JavaScript library for building user interfaces.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Redux: A predictable state container for JavaScript apps.
 
-### Making a Progressive Web App
+React-Redux: Official React bindings for Redux.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Jest: A testing framework for JavaScript.
 
-### Advanced Configuration
+React Testing Library: A testing utility for React components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Project Structure
 
-### Deployment
+public/: Contains the static files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+src/: Contains the React components and application logic.
 
-### `npm run build` fails to minify
+.gitignore: Specifies which files and directories to ignore in version control.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+package.json: Lists the project dependencies and scripts.
+
+# License
+
+This project is open-source and available under the MIT License.
